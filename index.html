@@ -1,0 +1,73 @@
+<!doctype html><html lang=en><meta charset=utf-8>
+<script defer src="itsjusttext.js"></script>
+<title>It's Just Text</title>
+
+# It's Just Text
+
+What if there was a way to convey an idea over a long distance such
+that anyone regardless of age, physical condition, available equipment
+or bandwidth can access it?
+
+Introducing: __It's Just Text__.  The lowest common denominator of the
+communication on the Internet.
+
+
+<img src="https://pbs.twimg.com/profile_banners/8552302/1398248230/600x200">
+
+
+## Only 3 Rules To Go By
+
+  - Content is what matters.  Use plain text with no formatting other
+    than emphasis and headers which facilitate reading.
+
+  - Wrapping and whitespace are part of your content: control them.
+    Structure your ideas with whitespace.  Wrap at the 72nd character;
+    it reads well, zooms well and fits multiple documents side-by-side.
+
+  - Forgo all interaction.  Don't store state, don't use dynamic
+    elements, don't listen to events.
+
+
+## Getting Started
+
+__It's Just Text__ is a manifesto.  You can literally upload a *.txt
+file to your server and you're good.
+
+But what if you want to embed an image in your document?  Or make it
+easier for the reader to refer to other hyperlinked documents?  It's
+the World Wide Web after all!
+
+I wrote a tiny JavaScript library which parses plain text files using
+a minimal Markdown-like syntax and produces a valid HTML document:
+[itsjusttext].  It's licensed under the MIT license.  You're welcome
+to create your own variation which best serves your needs.
+
+Put the following HTML at the top of your text file.  Edit the title
+and make sure the file is served as HTML (usually by changing its
+extension to *.html).
+
+   &lt;!doctype html&gt;&lt;html lang=en&gt;&lt;meta charset=utf-8&gt;
+   &lt;script defer src="itsjusttext.js"&gt;&lt;/script&gt;
+   &lt;title&gt;It's Just Text&lt;/title&gt;
+
+That's it!  The JavaScript code is fast and extremely lean, weighing in
+at just 0.5 KB.  It will mark up your content in a minimal way as
+described in the next section.
+
+
+## What's Included
+
+  - Your content, exactly how you wrote it.
+  - Three levels of headings: #&nbsp;hello
+  - Emphasis: _&zwj;_hi there__,
+  - Links with references: [howdy].
+  - Images via the &lt;img&gt; element.
+  - And any other HTML as well, actually.
+
+See the source of this page for a complete example.
+
+--
+[@stas]
+
+[itsjusttext]: https://github.com/stas/itsjusttext
+[@stas]: https://twitter.com/stas
