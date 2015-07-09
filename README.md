@@ -1,7 +1,3 @@
-<!doctype html><html lang=en><meta charset=utf-8>
-<script defer src="itsjusttext.js"></script>
-<title>It's Just Text</title>
-
 # It's Just Text
 
 What if there was a way to convey an idea over a long distance such
@@ -30,7 +26,7 @@ communication on the Internet.
 
 ## Getting Started
 
-__It's Just Text__ is a manifesto.  You can literally upload a *.txt
+__It's Just Text__ is a manifesto.  You can literally upload a \*.txt
 file to your server and you're good.
 
 But what if you want to embed an image in your document?  Or make it
@@ -44,11 +40,11 @@ to create your own variation which best serves your needs.
 
 Put the following HTML at the top of your text file.  Edit the title
 and make sure the file is served as HTML (usually by changing its
-extension to *.html).
+extension to \*.html).
 
-    &lt;!doctype html&gt;&lt;html lang=en&gt;&lt;meta charset=utf-8&gt;
-    &lt;script defer src="itsjusttext.js"&gt;&lt;/script&gt;
-    &lt;title&gt;It's Just Text&lt;/title&gt;
+    <!doctype html><html lang=en><meta charset=utf-8>
+    <script defer src="itsjusttext.js"></script>
+    <title>It's Just Text</title>
 
 That's it!  The JavaScript code is fast and extremely lean, weighing in
 at just 0.5 KB.  It will mark up your content in a minimal way as
@@ -59,7 +55,7 @@ described in the next section.
 
   - Your content, exactly how you wrote it.
   - Three levels of headings: #&nbsp;hello
-  - Emphasis: _&zwj;_hi there__,
+  - Emphasis: \_\_hi there\_\_,
   - Links with references: [howdy].
   - Images via the &lt;img&gt; element.
   - And any other HTML as well, actually.
