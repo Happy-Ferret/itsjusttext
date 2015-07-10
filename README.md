@@ -65,5 +65,5 @@ See the source of this page for a complete example.
 --
 [@stas]
 
-[itsjusttext]: https://github.com/stas/itsjusttext
+[itsjusttext]: https://github.com/stasm/itsjusttext
 [@stas]: https://twitter.com/stas
